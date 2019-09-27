@@ -1,0 +1,10 @@
+.blinking-text {
+    opacity: 0.9;
+    animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.5;
+    }
+}
